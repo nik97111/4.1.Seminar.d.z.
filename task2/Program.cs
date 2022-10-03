@@ -3,14 +3,14 @@
 // 5 -> Пятница
 
 Console.WriteLine("Введите день недели по номеру: ");
-int number = int.Parse(Console.ReadLine());
+int numberDay = int.Parse(Console.ReadLine());
 
-if (number == 3)
+if (numberDay == 3)
 {
     Console.WriteLine("Сегодня среда");
 }
 
-if (number == 5)
+if (numberDay == 5)
 {
     Console.WriteLine("Сегодня пятница");
 }
