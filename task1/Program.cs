@@ -6,10 +6,10 @@
 // a = -3, b = 9 -> нет
 
 Console.Write("Введите число: ");
-int number1 = int.Parse(Console.ReadLine());
-int number2 = int.Parse(Console.ReadLine());
+int numberOne = int.Parse(Console.ReadLine());
+int numberTwo = int.Parse(Console.ReadLine());
 
-if ((number1 / number2) == number2)
+if ((numberOne / numberTwo) == numberTwo)
 {
     Console.WriteLine("Первое число является корнем второго");
 }
