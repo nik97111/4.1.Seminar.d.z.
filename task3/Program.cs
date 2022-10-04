@@ -8,6 +8,10 @@ Console.WriteLine("Введите число: ");
 
  int i = -N;
  while (i <= N) {
-    Console.WriteLine(i + " , ");
+   if (i == N) {
+      Console.Write(i);
+   } else {
+    Console.Write(i + ", ");
+   }
     i++;
  }
