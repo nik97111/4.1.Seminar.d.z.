@@ -10,8 +10,10 @@ int numberOne = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int numberTwo = int.Parse(Console.ReadLine());
 
-if (numberOne >= numberTwo) {
+if (numberOne > numberTwo) {
     Console.WriteLine("Первое число - большее, второе - меньшее");
-} else {
+} else if (numberTwo > numberOne) {
     Console.WriteLine("Второе число - большее, первое - меньшее");
+} else {
+    Console.WriteLine("Все введенные числа одинаковы. Введите другие числа");
 }
